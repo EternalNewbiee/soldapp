@@ -1,8 +1,9 @@
-import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
-import { useTodo } from '../hooks/todo'
-import Loading from '../components/Loading'
-import TodoSection from '../components/todo/TodoSection'
-import styles from '../styles/Home.module.css'
+
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+import { useTodo } from '../hooks/todo';
+import Loading from '../components/Loading';
+import TodoSection from '../components/todo/TodoSection';
+import styles from '../styles/Home.module.css';
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
                     </button>
                 )}
                 {/* <WalletMultiButton /> */}
+                <WalletMultiButton/>
             </div>
 
             <div className={styles.mainContainer}>
