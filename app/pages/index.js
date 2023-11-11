@@ -30,7 +30,7 @@ const Home = () => {
                         Initialize
                     </button>
                 )}
-                {/* <WalletMultiButton /> */}
+
                 <WalletMultiButton/>
             </div>
 
